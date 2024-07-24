@@ -21,13 +21,16 @@
 |                  | 8       | :white_check_mark: |
 | macOS            | 10.15+  | :white_check_mark: |
 |                  |         |                    |
+| Windows          | 7+      | :white_check_mark: |
+|                  |         |                    |
 
 
 
 ## Requirements
 
 - NodeJS
-- Git 
+- Git
+- npm
 
 ## Then Run the Following Command 
 
@@ -58,6 +61,7 @@ git clone https://github.com/skyportlabs/panel.git && cd panel && npm install &&
 |                  | 7       | :white_check_mark: |
 |                  | 8       | :white_check_mark: |
 | macOS            | 10.15+  | :white_check_mark: |
+| Windows          | 7+      | :white_check_mark: |
 |                  |         |                    |
 
 
@@ -65,6 +69,7 @@ git clone https://github.com/skyportlabs/panel.git && cd panel && npm install &&
 ## Requirements
 
 - NodeJS
+- npm
 - Git
 - Docker
 
