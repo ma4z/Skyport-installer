@@ -76,6 +76,11 @@ git clone https://github.com/skyportlabs/panel.git && cd panel && npm install &&
 ## Then Run the Following Command 
 
 ```bash
-git clone https://github.com/skyportlabs/skyportd.git && cd skyportd && npm install && node .
+git clone https://github.com/skyportlabs/skyportd.git && cd skyportd && npm install 
 ```
 
+## Then you need to Create The Node with Node IP and port as 3000 then click configure and run the following command
+
+```bash
+node .
+```
