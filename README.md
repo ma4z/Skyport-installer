@@ -37,10 +37,16 @@
 ```bash
 git clone https://github.com/skyportlabs/panel.git && cd panel && npm install && npm run seed && npm run createUser && node .
 ```
-## If wont work try this
+## If wont work try this only root
 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/mtq4/Skyport-installer/main/install.sh)
+```
+
+## If wont work try this without root
+
+```sh
+bash <(curl -s https://raw.githubusercontent.com/mtq4/Skyport-installer/main/withoutroot.sh)
 ```
 
 # Skyport Daemon Installer
