@@ -41,6 +41,7 @@ git clone https://github.com/skyportlabs/panel.git && cd panel && npm install &&
 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/mtq4/Skyport-installer/main/install.sh)
+```
 
 # Skyport Daemon Installer
 # Works on
