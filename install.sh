@@ -17,11 +17,11 @@ prompt() {
 
 # Check if the script is run as root
 if [ "$(id -u)" -ne 0 ]; then
-    echo -e "${RED}******************************|"
+    echo -e "******************************|"
     echo -e "                              |"
-    echo -e "Error : You Must Be in Root    |"
+    echo -e "${RED}Error${NC} : You Must Be in Root   |"
     echo -e "                              |"
-    echo -e "******************************|${NC}"
+    echo -e "******************************|"
     exit 1
 fi
 
