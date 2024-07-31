@@ -25,7 +25,7 @@ echo "* Installed Dependencies"
 git clone https://github.com/mtq4/ustaklydashboard.git
 cd ustaklydashboard || { echo "Failed to enter directory."; exit 1; }
 npm install
-mv .env_exemple .env
+mv .env_example .env
 
 echo "* Installed Files"
 
