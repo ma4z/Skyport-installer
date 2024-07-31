@@ -88,3 +88,6 @@ host_name=$(prompt "What's your Host Name? : ")
 } > .env
 
 echo "* Configuration Complete"
+# Start Ustalkly
+echo "* Starting UstaklyDashboard this may take some time"
+node index.js
