@@ -35,6 +35,8 @@ skyport_key=$(prompt "What's Your Skyport API_KEY?: ")
 client_id=$(prompt "What's Your Oauth2 Client id? : ")
 client_secret=$(prompt "What's Your Oauth2 secret? : ")
 redirect_url=$(prompt "What's Your Redirect Url must be /callback/discord at end? : ")
+webhook_enable=$(prompt "Do you want the Webhook Enable? true / false dont put wrong spell or ustakly wont work" : ")
+webhook_url=$(prompt "Whats Your Webhook url is you didnt enable it just press enter or type url" : ")
 admin_email=$(prompt "What's Your Email for Administration? : ")
 port=$(prompt "Which Port we Listen the Ustakly? : ")
 host_name=$(prompt "What's your Host Name? : ")
@@ -50,6 +52,10 @@ host_name=$(prompt "What's your Host Name? : ")
   echo "DISCORD_CLIENT_SECRET=${client_secret}"
   echo "DISCORD_CALLBACK_URL=${redirect_url}"
   echo "PASSWORD_LENGTH=10"
+  echo ""
+  echo "# Webhook Settings | If Webhook Enable set to true of you dont want then set it false"
+  echo "WEBHOOK_ENABLED=${webhook_enable}"
+  echo "WEBHOOK_URL=${webhook_url}"
   echo ""
   echo "# proxycheck.io API key"
   echo "PROXYCHECK_KEY=0000000000000000000000000000"
