@@ -90,7 +90,7 @@ host_name=$(prompt "What's your Host Name? : ")
   echo "ALLOCATION_COST=500"
   echo ""
   echo "# Developer"
-  echo "APP_VERSION=v0.1.0-beta2"
+  echo "APP_VERSION=v0.1.0-beta4"
 } > .env
 
 echo "* Configuration Complete"
